@@ -1,0 +1,8 @@
+Este repositório contém o arquivo json referente ao bot desenvolvido no Take Blip e um link de acesso para o Blip Chat, sendo ambos utilizados como métodos de avaliação na Sprint 3.
+
+Link BlipChat: https://guilherme-saueressig-ohfyd.chat.blip.ai/?appKey=YXRlbmRpbWVudG9waXp6YXJpYTM6N2M5OGM0MTAtMDZhOC00ODI1LTkyYzQtMmUyYWVkYzhiMDgz
+
+Breve explicação: O bot funciona com base em um conjunto de regras, onde o usuário inicialmente é saudado e encaminhado para um menu. No menu, o usuário pode optar por 4 opções: fazer um pedido, checar um pedido já feito, falar com um atendente ou sair do atendimento. No caso de fazer um pedido, o usuário pode escolher o tamanho da sua pizza, tipo de borda e até quatro sabores dentro do cardápio definido inicialmente (que pode vir a ser aumentado). Após efetuar o pedido, o usuário é apresentado com os dados do pedido e o atendimento é concluído. Se o usuário escolher por checar um pedido feito anteriormente, ele primeiro precisa ter feito um pedido que ainda não foi entregue. Se houver um pedido feito pelo usuário, ele pode verificar os dados do pedido e o tempo de entrega.
+Se o usuário optar por falar com um atendente, ele é encaminhado para um atendente através do sistema de atendimento humano e após o atendimento ele pode optar por avaliar o atendimento ou não. Por último, o usuário pode sair do chat sem efetuar nenhuma outra função.
+
+Por fim, se fosse sido disponibilizado mais tempo para fazer o bot, poderia ter melhorado o sistema principalmente do tempo de entrega, que apenas mostra um tempo de entrega estático que não se altera com a passagem do tempo. Com mais tempo também poderia ter sido desenvolvido um script para adquirir os dados do usuário em um cadastro antes da entrada no sistema.
